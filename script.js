@@ -11,7 +11,6 @@ function markdownToHTML(text) {
 }
 
 async function perguntaAI(question, game, APIKey) {
-  //AIzaSyC8mFdBoaycCqNks5SL5mq2413rkE3_5XE
   const model = "gemini-2.0-flash";
   const geminiURL = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent`;
 
